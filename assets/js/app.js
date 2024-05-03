@@ -19,7 +19,7 @@ let vuePlaylist = 'default'; // 'default' ou 'liste'
 
 // Affichage des musiques 
 const getData = async () => {
-    const req = await fetch("https://api-music-dblocal.onrender.com/api/v1/music");
+    const req = await fetch("https://jukeonline-dblocal.onrender.com/api/v1/music");
     console.log(req);
     const dbMusic = await req.json();
     data = dbMusic.result;
