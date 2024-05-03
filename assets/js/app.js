@@ -9,8 +9,8 @@ const vueButton = document.getElementById('vue-button');
 const themeButton = document.getElementById('theme-button');
 const container = document.getElementById('container');
 const config = {
-    urlCover: "./upload/cover/",
-    urlSound: "./upload/music/",
+    urlCover: "https://jukeonline-dblocal.onrender.com/api/v1/upload/cover/",
+    urlSound: "https://jukeonline-dblocal.onrender.com/api/v1/upload/music/",
     urlIcone: "./assets/ico/"
 };
 
